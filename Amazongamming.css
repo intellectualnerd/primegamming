@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.roller::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+}
+
+.roller {
+    height: 400px;
+    overflow-x: scroll;
+}
+
+.blackback {
+    position: relative;
+    height: 600px;
+    width: 98vw;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: right top;
+    background-color: black;
+}
+
+.icon>svg>path {
+    fill: #8d869d;
+}
+
+.on-off {
+    padding: 5px;
+    padding-bottom: 2px;
+    border-radius: 50%;
+    background-color: rgb(116, 99, 144);
+    margin-top: 10px;
+}
+
+.ulnavunder {
+    list-style-type: none;
+}
+
+.white {
+    background-color: white;
+}
+
+li>svg {
+    fill: #8d869d;
+}
+
+nav {
+    padding: 20px 0px;
+}
+
+body {
+    background-color: rgb(11, 3, 24);
+}
+
+.ulnav {
+    list-style-type: none;
+}
+
+.linav {
+    float: right;
+}
+
+.logo {
+    padding: 30px 0px 30px 2vw;
+    font-weight: 600;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    color: white;
+}
+
+.icon {
+    border: 1px solid rgb(14, 14, 14);
+    color: black;
+    border-radius: 3px;
+    background-color: rgb(175, 173, 173);
+    margin-left: 15px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.lang {
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.tryprime {
+    color: rgb(41, 40, 40);
+    margin: 0px 0px 0px 15px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: rgb(25, 150, 253);
+}
+
+.signin {
+    border: 1px solid white;
+    color: white;
+    margin-top: 1px !important;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: rgba(11, 3, 24, 1);
+
+}
+
+.dropdownmenu {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    background-color: #383048;
+    color: #8d869d;
+    z-index: 1;
+    top: 40px;
+
+}
+
+.wrap {
+    list-style-type: none;
+    border-radius: 5px;
+    display: static;
+    position: absolute;
+    background-color: #383048;
+    color: #9e97b0;
+    z-index: 1;
+    top: 40px;
+    right: 1px;
+    min-width: 250px;
+    padding: 15px 0px;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+
+.none {
+    display: none;
+}
+
+.dropdownitem {
+    text-align: left;
+    padding: 7.5px 15px;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #9e97b0;
+}
+
+.wborder {
+    border: 5px solid white !important;
+}
+
+.display {
+    display: static;
+}
+
+.dropdownitem:hover {
+    background-color: rgba(158, 151, 176, 0.2);
+}
+
+.signin:hover {
+    background-color: rgba(212, 220, 227, 0.2);
+}
+
+.tryprime:hover {
+    background-color: rgba(25, 150, 253, 0.8);
+}
+
+.icon:hover {
+    background-color: rgba(255, 255, 255);
+}
+
+.herotitle {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+
+.contact {
+    background-color: #8f46fe;
+    border: 1px solid #8f46fe;
+    color: white;
+    font-size: 1.1rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact:hover {
+    background-color: #b787fe;
+}
+
+.bottomrow {
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+    position: absolute;
+    bottom: 20px;
+    width: 70vw;
+}
+
+.fixbtnp {
+    position: absolute;
+    top: 270px;
+}
+
+.fwp {
+    font-weight: 700;
+    font-family: sans-serif;
+    padding: 20px 0px 10px 0px;
+}
+
+.herotextdiv {
+    padding: 100px 0px 0px 80px;
+    font-size: 1.1rem;
+    display: inline-block;
+    color: white;
+    height: 600px;
+    width: 26vw;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.description {
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+button:visited>ul {
+    display: block;
+}
+
+.btnunder {
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: aliceblue;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+.active {
+    background-color: #8d869d;
+}
+
+.btnunder:hover {
+    background-color: #8d869d;
+}
+
+.bottomrow>button>img {
+    padding: 0px 0px;
+    height: 120px;
+    width: auto;
+}
+
+.bottomrow {
+    margin-left: 50%;
+    transform: translate(-55%);
+}
+
+.bottomrow>button {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: 5px solid transparent;
+}
+
+.gamecard {
+    height: 350px;
+    width: 320px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 0px 5px 15px 5px;
+    background-color: #1f182a;
+}
+
+.unt {
+    margin: 20px 0px 5px;
+    color: rgb(219, 220, 222);
+    font-size: 1.6rem;
+    font-family: sans-serif;
+}
+
+.cardimg {
+    height: 175px;
+    padding: 0px;
+    margin: 0px;
+    background-image: url('https://m.media-amazon.com/images/I/614JE2SkF2L.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.endcard {
+    height: 40px;
+    background-color: #302939;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+
+    padding: 12px 20px;
+    color: rgb(255, 255, 255);
+}
+
+.cardinfo {
+    padding: 20px 30px;
+}
+
+.gameinfo {
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.pol {
+    display: none;
+}
+
+.cardbutton {
+    margin-top: 5px;
+    padding: 10px 7px;
+    border-radius: 5px;
+    background-color: #9046ff;
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    .logo {
+        padding-left: 0;
+        font-size: 1.2rem;
+    }
+
+    .tryprime {
+        display: none;
+    }
+
+    .none2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .blackback {
+        position: relative;
+        height: 60vh;
+        width: 98vw;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: black;
+    }
+
+    .herotextdiv {
+        padding: 45vh 0px 0px 0px;
+        margin-left: 50%;
+        transform: translate(-50%);
+        text-align: center;
+        font-size: 1.1rem;
+        display: inline-block;
+        color: white;
+        height: 600px;
+        width: auto;
+    }
+
+    .ulnavunder>input {
+        display: none;
+    }
+
+    .ulnavunder>svg {
+        display: none;
+
+    }
+
+    .pol {
+        z-index: 3;
+        display: inline;
+        position: absolute;
+        top: 62vh;
+        left: 45%;
+    }
+
+    .btnunder {
+        border-radius: 20px;
+        border: 1px solid transparent;
+        background-color: transparent;
+        color: aliceblue;
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    .btnunder:hover {
+        background-color: #8d869d;
+    }
+
+    .bottomrow {
+        display: none;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .fixbtnp {
+        display: none;
+    }
+
+    .bottomrow>button>img {
+
+        height: 80px;
+        width: auto;
+    }
+
+    .bottomrow>button {
+        display: inline;
+    }
+}

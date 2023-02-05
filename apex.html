@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Amazongamming.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Amazongamming.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul class="ulnav">
+
+
+            <!--prime gamming-->
+            <span class="logo">prime</span>
+            <span class="logo" style="font-weight:400;padding-left: 0px;"> gaming</span>
+
+
+            <!--dropdown info-->
+            <li class="linav">
+                <button onclick="dropdown()" style="margin-right: 3vw;" class="icon">
+                    <svg class="tw-svg__asset tw-svg__asset--navprofile tw-svg__asset--inherit" width="17px"
+                        height="17px" version="1.1" viewBox="0 0 20 20" x="0px" y="0px">
+                        <g>
+                            <path fill-rule="evenodd"
+                                d="M5 7a5 5 0 116.192 4.857A2 2 0 0013 13h1a3 3 0 013 3v2h-2v-2a1 1 0 00-1-1h-1a3.99 3.99 0 01-3-1.354A3.99 3.99 0 017 15H6a1 1 0 00-1 1v2H3v-2a3 3 0 013-3h1a2 2 0 001.808-1.143A5.002 5.002 0 015 7zm5 3a3 3 0 110-6 3 3 0 010 6z"
+                                clip-rule="evenodd"></path>
+                        </g>
+                    </svg>
+                    <span id="down" class="display"><svg xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" height="15px" width="15px"
+                            version="1.1" id="Layer_1" viewBox="0 0 330 330" xml:space="preserve">
+                            <path id="XMLID_225_"
+                                d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393  c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393  s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                        </svg></span>
+                    <span id="up" class="none"><span id="up"><svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" height="15px" width="15px"
+                                version="1.1" id="Layer_1" viewBox="0 0 330 330" xml:space="preserve">
+                                <path id="XMLID_224_"
+                                    d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394  l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393  C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z" />
+                            </svg></span>
+                        <ul id="dropdown" class="dropdownmenu">
+                            <li class="dropdownitem"><svg
+                                    class="tw-svg__asset tw-svg__asset--crown tw-svg__asset--inherit" width="16px"
+                                    height="16px" version="1.1" viewBox="0 0 20 20" x="0px" y="0px">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M18 5v8a2 2 0 0 1-2 2H4a2.002 2.002 0 0 1-2-2V5l4 3 4-4 4 4 4-3z"></path>
+                                </svg> About Prime Gaming</li>
+                            <li class="dropdownitem"><svg
+                                    class="tw-svg__asset tw-svg__asset--navgames tw-svg__asset--inherit" width="16px"
+                                    height="16px" version="1.1" viewBox="0 0 20 20" x="0px" y="0px">
+                                    <path
+                                        d="M14.41 7.005h2.715c.483 0 .875.392.875.875v4.24a.875.875 0 0 1-.875.875h-2.717L11.415 10l2.995-2.995zm-8.82 5.99H2.876A.875.875 0 0 1 2 12.12V7.88c0-.484.391-.875.875-.875H5.59L8.586 10 5.59 12.995zm1.415 1.414L10 11.414l2.995 2.995v2.716a.875.875 0 0 1-.875.875H7.88a.875.875 0 0 1-.875-.875v-2.716zm5.99-8.818L10 8.586 7.004 5.59V2.875c0-.484.392-.875.875-.875h4.24c.484 0 .875.391.875.875v2.716z"
+                                        fill-rule="evenodd"></path>
+                                </svg> Games and loot</li>
+                            <li class="dropdownitem"><svg
+                                    class="tw-svg__asset tw-svg__asset--notificationquestionmark tw-svg__asset--inherit"
+                                    width="15px" height="15px" version="1.1" viewBox="0 0 20 20" x="0px" y="0px">
+                                    <g>
+                                        <path
+                                            d="M9 8a1 1 0 011-1h.146a.87.87 0 01.854.871c0 .313-.179.6-.447.735A2.81 2.81 0 009 11.118V12h2v-.882a.81.81 0 01.447-.724A2.825 2.825 0 0013 7.871C13 6.307 11.734 5 10.146 5H10a3 3 0 00-3 3h2zM9 14a1 1 0 112 0 1 1 0 01-2 0z">
+                                        </path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M2 10a8 8 0 1116 0 8 8 0 01-16 0zm8 6a6 6 0 110-12 6 6 0 010 12z"></path>
+                                    </g>
+                                </svg> Support</li>
+                            <hr>
+                            <li class="dropdownitem"><svg
+                                    class="tw-svg__asset tw-svg__asset--global tw-svg__asset--inherit" width="16px"
+                                    height="16px" version="1.1" viewBox="0 0 20 20" x="0px" y="0px">
+                                    <path
+                                        d="M13.156 15.097A10.703 10.703 0 0 0 14.36 11h1.557a6.004 6.004 0 0 1-2.76 4.097M4.096 11h1.557a10.725 10.725 0 0 0 1.206 4.1A6.007 6.007 0 0 1 4.097 11m2.76-6.097A10.702 10.702 0 0 0 5.654 9H4.097a6.006 6.006 0 0 1 2.76-4.097M12.403 9H7.61c.198-1.854.948-3.43 2.168-4.988.077-.003.152-.012.23-.012.075 0 .147.009.222.012C11.451 5.57 12.204 7.146 12.403 9m-2.167 6.989c-.077.003-.152.01-.229.01-.076 0-.148-.007-.223-.01-1.222-1.558-1.975-3.135-2.174-4.99h4.794c-.198 1.855-.948 3.432-2.168 4.99m5.681-6.99H14.36a10.704 10.704 0 0 0-1.207-4.098A6.003 6.003 0 0 1 15.917 9m2.096 1.014c0-.04-.009-.072-.01-.11C17.948 5.53 14.392 2 10.006 2 5.63 2 2.077 5.518 2.012 9.88 2.01 9.918 2 9.95 2 9.987c0 .039.01.072.011.11A7.998 7.998 0 0 0 10.007 18c4.378 0 7.93-3.518 7.994-7.882.002-.036.012-.067.012-.104"
+                                        fill-rule="evenodd"></path>
+                                </svg> Languages</li>
+                            <hr>
+                            <li class="dropdownitem"><svg
+                                    class="tw-svg__asset tw-svg__asset--navlogout tw-svg__asset--inherit" width="16px"
+                                    height="16px" version="1.1" viewBox="0 0 20 20" x="0px" y="0px">
+                                    <g>
+                                        <path
+                                            d="M16 18h-4a2 2 0 01-2-2v-2h2v2h4V4h-4v2h-2V4a2 2 0 012-2h4a2 2 0 012 2v12a2 2 0 01-2 2z">
+                                        </path>
+                                        <path d="M7 5l1.5 1.5L6 9h8v2H6l2.5 2.5L7 15l-5-5 5-5z"></path>
+                                    </g>
+                                </svg> Sign in</li>
+                        </ul>
+                </button>
+
+            </li>
+
+
+
+            <!--dropdown language-->
+            <li class="linav">
+                <button onclick="dropdown2()" class="icon none2">
+                    <span>
+                        <svg class="tw-svg__asset tw-svg__asset--global tw-svg__asset--inherit" width="17px"
+                            height="17px" version="1.1" viewBox="0 0 20 15" x="0px" y="0px">
+                            <path
+                                d="M13.156 15.097A10.703 10.703 0 0 0 14.36 11h1.557a6.004 6.004 0 0 1-2.76 4.097M4.096 11h1.557a10.725 10.725 0 0 0 1.206 4.1A6.007 6.007 0 0 1 4.097 11m2.76-6.097A10.702 10.702 0 0 0 5.654 9H4.097a6.006 6.006 0 0 1 2.76-4.097M12.403 9H7.61c.198-1.854.948-3.43 2.168-4.988.077-.003.152-.012.23-.012.075 0 .147.009.222.012C11.451 5.57 12.204 7.146 12.403 9m-2.167 6.989c-.077.003-.152.01-.229.01-.076 0-.148-.007-.223-.01-1.222-1.558-1.975-3.135-2.174-4.99h4.794c-.198 1.855-.948 3.432-2.168 4.99m5.681-6.99H14.36a10.704 10.704 0 0 0-1.207-4.098A6.003 6.003 0 0 1 15.917 9m2.096 1.014c0-.04-.009-.072-.01-.11C17.948 5.53 14.392 2 10.006 2 5.63 2 2.077 5.518 2.012 9.88 2.01 9.918 2 9.95 2 9.987c0 .039.01.072.011.11A7.998 7.998 0 0 0 10.007 18c4.378 0 7.93-3.518 7.994-7.882.002-.036.012-.067.012-.104"
+                                fill-rule="evenodd"></path>
+                        </svg>
+
+                    </span>
+
+                    <span style="font-size: 1rem;font-weight: 700;">EN
+                        <span id="down2" class="display"><svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" height="15px" width="15px"
+                                version="1.1" id="Layer_1" viewBox="0 0 330 330" xml:space="preserve">
+                                <path id="XMLID_225_"
+                                    d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393  c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393  s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                            </svg></span>
+                        <span id="up2" class="none"><span id="up"><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" height="15px" width="15px"
+                                    version="1.1" id="Layer_1" viewBox="0 0 330 330" xml:space="preserve">
+                                    <path id="XMLID_224_"
+                                        d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394  l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393  C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z" />
+                                </svg></span>
+                            <ul id="dropdown2" class="dropdownmenu">
+                                <li class="dropdownitem">Hindi</li>
+                                <li class="dropdownitem">Deutch</li>
+                                <li class="dropdownitem">English</li>
+                                <li class="dropdownitem"><b style="color: white;">English-UK</b></li>
+                                <li class="dropdownitem">Italiano</li>
+                                <li class="dropdownitem">Polski</li>
+                                <li class="dropdownitem">Nederlends</li>
+
+                            </ul>
+                            </svg>
+                        </span>
+                </button>
+            </li>
+
+
+
+            <!--Try prime-->
+            <li class="linav">
+                <button class="tryprime">
+                    Try Prime
+                </button>
+            </li>
+
+
+            <!--sign in-->
+            <li class="linav">
+                <button class="signin">
+                    Sign in
+                </button>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="blackback2" class="blackback"
+        style="height:100vh;background-image:url('https://m.media-amazon.com/images/G/01/sm/ApexLegends/Season05/drop16/Apex_S5Drop16_tablet_hero_2x.jpg');">
+        <div id="herotextdiv2" class="herotextdiv">
+            <p class="herotitle">
+                Apex Legends
+            </p>
+            <p class="description">
+                Show everyone what Legends are made of with unique Apex Legends content, for Prime members.
+            </p>
+            <div class="fixbtnp">
+                <p class="fwp">
+                    Free With Prime
+                </p>
+
+
+                <div style="margin-top: 50px;" class="gamecard">
+                    <div class="cardimg"
+                        style="height:300px;background-image: url('https://m.media-amazon.com/images/G/01/sm/Fifa22/FIFA22_S1Drop1_loot1_sm_2x._CB639246996_.jpg');">
+
+                    </div>
+
+                    <div class="cardinfo">
+
+                        <div class="gameinfo">
+                            Claim now
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
